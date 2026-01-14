@@ -5,3 +5,7 @@ body{
     background: linear-gradient(120deg, #22f009 30%,#ffe6a1 100%);
     min-height: 100vh;
 }
+
+
+.container{
+    display: flex;
