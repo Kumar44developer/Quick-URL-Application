@@ -1,3 +1,5 @@
 body{
     font-family: sans-serif;
     margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #22f009 30%,#ffe6a1 100%);
