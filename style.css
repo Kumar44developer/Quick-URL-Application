@@ -31,6 +31,8 @@ form{
 
 input[type="text"],
 input[type="url"]{
+width: 95%;
+margin-bottom: 10px;
 
 
 
