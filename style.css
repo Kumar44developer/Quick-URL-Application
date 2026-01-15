@@ -57,3 +57,6 @@ input[type="submit"]:hover{
 }
 
 
+ul{
+    display: flex;
+    justify-content: center;
