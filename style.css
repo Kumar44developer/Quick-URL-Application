@@ -60,3 +60,5 @@ input[type="submit"]:hover{
 ul{
     display: flex;
     justify-content: center;
+    list-style-type: none;
+    margin-top: 20px;
