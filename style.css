@@ -83,7 +83,8 @@ li a{
     font-weight: 600;
 }
 
-
+li a:hover{
+    color: #2813e2;
 
 
 
