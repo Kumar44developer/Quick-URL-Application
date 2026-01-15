@@ -39,6 +39,7 @@ border-radius: 3px;
 font-size: 14px;
 }
 
-
+input[type="submit"]{
+    width: 100%;
 
 
