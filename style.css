@@ -91,6 +91,8 @@ button{
     padding: 8px;
     background-color: #e74c3c;
     color: #fff;
+    border: none;
+    border-radius: 3px;
 
 
 
