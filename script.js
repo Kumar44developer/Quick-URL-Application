@@ -5,3 +5,7 @@ const bookmarkList = document.getElementById("bookmarkList");
 
 bookMarkForm.addEventListener("submit",addBookmark);
 document.addEventListener("DOMContentLoaded",displayBoomarks);
+
+
+function addBookmark(event){
+    event.preventDefault();
