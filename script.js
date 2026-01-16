@@ -9,3 +9,5 @@ document.addEventListener("DOMContentLoaded",displayBoomarks);
 
 function addBookmark(event){
     event.preventDefault();
+    
+    const siteName = siteNameInput.value;
