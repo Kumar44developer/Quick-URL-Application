@@ -4,3 +4,4 @@ const siteUrlInput = document.getElementById("siteUrl");
 const bookmarkList = document.getElementById("bookmarkList");
 
 bookMarkForm.addEventListener("submit",addBookmark);
+document.addEventListener("DOMContentLoaded",displayBoomarks);
