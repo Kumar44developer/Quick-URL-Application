@@ -22,4 +22,6 @@ alert("This bookmark already exists");
             return;
     }
 
+const bookmark = {
 
+    
