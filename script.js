@@ -35,4 +35,7 @@ displayBookmark(bookmark);
     siteUrlInput.value = ""
 
 }
+
+function validateForm(siteName,siteUrl){
+
     
