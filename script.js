@@ -11,3 +11,5 @@ function addBookmark(event){
     event.preventDefault();
     
     const siteName = siteNameInput.value;
+    const siteUrl = siteUrlInput.value;
+
