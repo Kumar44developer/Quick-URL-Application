@@ -28,6 +28,8 @@ const bookmark = {
 };
 
 saveBookmark(bookmark);
+
+displayBookmark(bookmark);
     
 
     
