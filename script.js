@@ -42,5 +42,6 @@ alert("Please fill in both fields.")
 return;
 }
 
-
+try{
+    new URL(siteUrl);
     
