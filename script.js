@@ -14,3 +14,5 @@ function addBookmark(event){
     const siteUrl = siteUrlInput.value;
 
 if(!validateForm(siteName,siteUrl)){
+            return;
+    }
