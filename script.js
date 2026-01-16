@@ -16,3 +16,5 @@ function addBookmark(event){
 if(!validateForm(siteName,siteUrl)){
             return;
     }
+
+if(isDuplicateBookmark(siteName,siteUrl)){
