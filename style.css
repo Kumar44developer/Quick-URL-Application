@@ -97,7 +97,9 @@ button{
     margin-left: 10px;
 }
 
-
+button:hover{
+    background-color: #c0392b;
+}
 
 
 
