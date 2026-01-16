@@ -38,5 +38,7 @@ displayBookmark(bookmark);
 
 function validateForm(siteName,siteUrl){
 if(!siteName || !siteUrl){
+alert("Please fill in both fields.")
+
 
     
