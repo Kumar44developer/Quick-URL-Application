@@ -13,3 +13,4 @@ function addBookmark(event){
     const siteName = siteNameInput.value;
     const siteUrl = siteUrlInput.value;
 
+if(!validateForm(siteName,siteUrl)){
