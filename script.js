@@ -18,3 +18,5 @@ if(!validateForm(siteName,siteUrl)){
     }
 
 if(isDuplicateBookmark(siteName,siteUrl)){
+alert("This bookmark already exists");
+
