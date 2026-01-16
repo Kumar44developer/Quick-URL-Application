@@ -31,5 +31,8 @@ saveBookmark(bookmark);
 
 displayBookmark(bookmark);
     
+    siteNameInput.value = ""
+    siteUrlInput.value = ""
 
+}
     
