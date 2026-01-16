@@ -27,5 +27,7 @@ const bookmark = {
         url: siteUrl,
 };
 
+saveBookmark(bookmark);
+    
 
     
