@@ -70,6 +70,7 @@ removeButton.addEventListener("click",()=> removeBookmark(bookmark));
 
 
 function saveBookmark(bookmark){
+    let bookmarks = getBookmarks();
 
 
 
