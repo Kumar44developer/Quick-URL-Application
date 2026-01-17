@@ -76,6 +76,9 @@ function saveBookmark(bookmark){
 }
 
 function getBookmarks(){
+        return JSON.parse(localStorage.getItem("bookmarks")) || [];
+
+}
 
 
 
