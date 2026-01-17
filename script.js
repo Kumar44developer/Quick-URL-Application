@@ -52,6 +52,8 @@ alert("Please enter a valid URL.")
 }
 
 function displayBookmark(bookmark){
+const bookmarkItem = document.createElement("li");
+
 
 
     
