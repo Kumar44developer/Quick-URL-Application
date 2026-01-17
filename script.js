@@ -45,5 +45,7 @@ return;
 try{
     new URL(siteUrl);
     return true;
+}catch(error){
+
 
     
