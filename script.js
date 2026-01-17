@@ -63,7 +63,9 @@ const removeButton = document.createElement("button");
 removeButton.innerHTML = '<i class="fas fa-trash-alt"></i>';
 
 removeButton.addEventListener("click",()=> removeBookmark(bookmark));
-        bookmarkItem.appendChild(link);
+    bookmarkItem.appendChild(link);
+    bookmarkItem.appendChild(removeButton);
+
 
 
 
