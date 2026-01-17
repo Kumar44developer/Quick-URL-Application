@@ -47,6 +47,9 @@ try{
     return true;
 }catch(error){
 alert("Please enter a valid URL.")
+            return false;
+    }
+}
 
 
     
