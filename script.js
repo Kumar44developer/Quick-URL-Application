@@ -92,6 +92,8 @@ function isDuplicateBookmark(siteName,siteUrl){
         let bookmarks = getBookmarks();
         return bookmarks.some(
         (bookmark) =>
+bookmark.name.toLowerCase() === siteName.toLowerCase() && bookmark.url.toLowerCase() === siteUrl.toLowerCase()
+
 
 
 
