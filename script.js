@@ -81,6 +81,8 @@ function getBookmarks(){
 }
 
 function displayBoomarks(){
+        let bookmarks = getBookmarks();
+
 
 
     
