@@ -46,6 +46,7 @@ try{
     new URL(siteUrl);
     return true;
 }catch(error){
+alert("Please enter a valid URL.")
 
 
     
