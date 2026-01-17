@@ -100,6 +100,8 @@ bookmark.name.toLowerCase() === siteName.toLowerCase() && bookmark.url.toLowerCa
 function removeBookmark(bookmark){
     let bookmarks = getBookmarks();
     bookmarks = bookmarks.filter(
+    (b) =>
+
 
 
 
