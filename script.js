@@ -62,6 +62,7 @@ link.target = "_blank";
 const removeButton = document.createElement("button");
 removeButton.innerHTML = '<i class="fas fa-trash-alt"></i>';
 
+removeButton.addEventListener("click",()=> removeBookmark(bookmark));
 
 
 
