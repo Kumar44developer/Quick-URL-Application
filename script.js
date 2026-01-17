@@ -93,6 +93,10 @@ function isDuplicateBookmark(siteName,siteUrl){
         return bookmarks.some(
         (bookmark) =>
 bookmark.name.toLowerCase() === siteName.toLowerCase() && bookmark.url.toLowerCase() === siteUrl.toLowerCase()
+    );
+
+}
+
 
 
 
