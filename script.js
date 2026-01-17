@@ -101,6 +101,7 @@ function removeBookmark(bookmark){
     let bookmarks = getBookmarks();
     bookmarks = bookmarks.filter(
     (b) =>
+    b.name.toLowerCase() !== bookmark.name.toLowerCase() || 
 
 
 
