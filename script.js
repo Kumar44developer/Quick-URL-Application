@@ -91,6 +91,7 @@ function displayBoomarks(){
 function isDuplicateBookmark(siteName,siteUrl){
         let bookmarks = getBookmarks();
         return bookmarks.some(
+        (bookmark) =>
 
 
 
