@@ -72,6 +72,8 @@ removeButton.addEventListener("click",()=> removeBookmark(bookmark));
 function saveBookmark(bookmark){
     let bookmarks = getBookmarks();
         bookmarks.push(bookmark);
+        localStorage.setItem("bookmarks",JSON.stringify(bookmarks));
+}
 
 
 
