@@ -82,6 +82,8 @@ function getBookmarks(){
 
 function displayBoomarks(){
         let bookmarks = getBookmarks();
+        bookmarks.forEach((bookmark)=>{
+
 
 
 
