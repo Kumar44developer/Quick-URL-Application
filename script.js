@@ -80,6 +80,7 @@ function getBookmarks(){
 
 }
 
+function displayBoomarks(){
 
 
     
