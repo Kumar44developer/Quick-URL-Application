@@ -56,6 +56,8 @@ const bookmarkItem = document.createElement("li");
 const link = document.createElement("a");
 link.href = bookmark.url;
 link.textContent = bookmark.name;
+link.target = "_blank";
+
 
 
 
