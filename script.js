@@ -111,6 +111,7 @@ localStorage.setItem("bookmarks",JSON.stringify(bookmarks));
 
 }
 
+function clearBookmarkList(){
 
 
 
