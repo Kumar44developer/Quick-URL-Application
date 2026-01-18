@@ -106,6 +106,10 @@ function removeBookmark(bookmark){
     );
 
 localStorage.setItem("bookmarks",JSON.stringify(bookmarks));
+        clearBookmarkList();
+    displayBoomarks();
+
+}
 
 
 
