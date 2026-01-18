@@ -105,6 +105,7 @@ function removeBookmark(bookmark){
                 b.url.toLowerCase() !== bookmark.url.toLowerCase()
     );
 
+localStorage.setItem("bookmarks",JSON.stringify(bookmarks));
 
 
 
