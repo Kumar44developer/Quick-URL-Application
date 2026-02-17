@@ -6,19 +6,16 @@ body{
     min-height: 100vh;
 }
 
-
 .container{
     display: flex;
     flex-direction: column;
 }
-
 
 h1{
     text-align: center;
     margin-bottom: 20px;
     color: #333;
 }
-
 
 form{
     max-width: 400px;
@@ -31,12 +28,12 @@ form{
 
 input[type="text"],
 input[type="url"]{
-width: 95%;
-margin-bottom: 10px;
-padding: 10px;
-border: 1px solid #ccc;
-border-radius: 3px;
-font-size: 14px;
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
 }
 
 input[type="submit"]{
@@ -51,11 +48,11 @@ input[type="submit"]{
     cursor: pointer;
 }
 
-
 input[type="submit"]:hover{
     background-color: #27ae60;
 }
 
+/* CSS will be Used inside the JS */
 
 ul{
     display: flex;
@@ -65,7 +62,6 @@ ul{
     padding: 0;
 }
 
-
 li{
     background-color: #e6e6e6;
     padding: 20px;
@@ -74,7 +70,6 @@ li{
     margin: 5px;
     text-align: center;
 }
-
 
 li a{
     text-decoration: none;
@@ -100,8 +95,3 @@ button{
 button:hover{
     background-color: #c0392b;
 }
-
-
-
-
-
